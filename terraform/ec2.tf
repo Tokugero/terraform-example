@@ -1,7 +1,7 @@
 # This file is responsible for creating the baseline compute necessary to serve something worth viewing.
 
 locals {
-  ec2_count = 12 # https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest?tab=outputs
+  ec2_count = 2 # https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest?tab=outputs
 }
 
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/key_pair
